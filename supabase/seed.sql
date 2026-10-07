@@ -1,0 +1,2 @@
+-- Local demo seed is intentionally held in lib/seed.ts. Only fictional data belongs here.
+-- Add authenticated test users and approved profiles with Supabase CLI when wiring auth.

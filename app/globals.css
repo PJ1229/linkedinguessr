@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { box-sizing: border-box; }
+body { margin:0; background:#f3f6f8; color:#172b4d; font-family: Arial, Helvetica, sans-serif; }
+button,input { font: inherit; }
+@layer components { .surface { @apply rounded-xl border border-slate-200 bg-white shadow-card; } .btn { @apply inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2 disabled:opacity-50; } .btn-primary { @apply btn bg-brand text-white hover:bg-[#004b91]; } .btn-secondary { @apply btn border border-slate-300 bg-white text-ink hover:bg-slate-50; } .meta { @apply text-sm text-slate-500; } }
